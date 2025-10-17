@@ -1,0 +1,77 @@
+# ------------------------------
+# Unreal Engine 5 .gitignore
+# ------------------------------
+
+# Build, cache, and temporary folders
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+Script/
+.vs/
+.vscode/
+
+# Config files - keep only defaults
+*.ini
+!Default*.ini
+
+# Unreal Build Tool and metadata
+*.target
+*.module
+*.manifest
+*.response
+*.suppressed
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.suo
+*.user
+*.userprefs
+*.opensdf
+*.sdf
+*.sln.docstates
+*.xcuserdata/
+*.xcworkspace
+*.xcodeproj
+.idea/
+cmake-build-*/
+
+# Backup / logs / crash dumps
+*.bak
+*.tmp
+*.temp
+*.old
+*.log
+*.dmp
+
+# Plugin intermediates
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+Plugins/*/DerivedDataCache/
+
+# Saved data
+Saved/Autosaves/
+Saved/Backup/
+Saved/Logs/
+Saved/StagedBuilds/
+Saved/Cooked/
+Saved/Temp/
+
+# Packaged builds
+WindowsNoEditor/
+LinuxNoEditor/
+MacNoEditor/
+Android_ASTC/
+Android_ETC2/
+Android_DXT/
+iOS/
+
+# Perforce
+.p4config
+.p4ignore
+
+# If you use Rider or JetBrains IDEs
+.idea/
